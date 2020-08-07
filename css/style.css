@@ -1,0 +1,204 @@
+/*GLOBALES*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 ;
+    border-top:17px solid #090909;
+}
+
+h2 {
+    font-size: 18px;
+    padding-left: 30px;
+    background-position: 0 7px;
+}
+
+h3{
+    font-size: 18px;
+    padding-left: 23px;
+    background-size: 8px;
+    background-position: 0 5px;
+}
+h2,h3{
+    text-transform: uppercase;
+    color: #090909;
+    padding-bottom: 12px;
+    background-image: url(../img/flecha.png);
+    background-repeat: no-repeat;
+}
+p{
+    color: #5d5d5d;
+    font-size: 12px;
+    line-height: 15px;
+}
+/*HELPERS*/
+.wraper{
+    width: 960px;
+	margin: 0 auto;
+}
+.title-border-bottom{
+    border-bottom: 6px solid #090909;
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.img-border{
+    padding: 20px 0 15px;
+    border-bottom: 1px solid #c0c0c0;
+
+}
+.link-read{
+    color:#fe9b00;
+    font-size:12px;
+    font-weight: bold;
+    padding-left:23px ;
+    text-decoration:none ;
+    text-transform: uppercase;
+    position: relative;
+}
+.link-read:hover{
+    text-decoration: underline;
+}
+
+.link-read-img{
+    width: 9px;
+    position: absolute;
+    left: 0;
+    top: 4px;
+}
+/*HEADER*/
+#logo{
+    float: left;
+    width: 183px;
+}
+.menu {
+    float: right;
+    width: 655px;
+    position: relative;
+}
+.e-mail{
+    font-size: 13px;
+    color: #999898;
+    text-decoration: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+#nav-list{
+    list-style: none;
+	margin: 45px 0 0 0;
+	padding: 0
+}
+#nav-list li{
+    float: left;
+}
+
+/*Remover el margen*/
+#nav-list li + li{
+	margin-left: 64px;
+}
+
+#nav-list a{
+    font-size: 12px;
+    font-size: bold;
+    color: #fe9b00;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+/*CONTENIDO DE INFO*/
+
+.list-information{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.list-information li{
+    padding-left:30px;
+	background-image: url('../img/check.png');
+	background-repeat: no-repeat;	
+	background-position: top left;
+}
+
+.caja{ 
+	width: 280px;
+	float: left;
+}
+
+.caja + .caja{
+	margin-left: 60px;
+}
+
+.box-link{
+    color:#090909;
+    font-size: 12px;
+    font-style: italic;
+    text-decoration: none;
+}
+/* Our portfolio */
+.video{
+	width: 214.5px;
+	float: left;
+	background-color: red;
+}
+.video a, .video img{
+	display: block;
+}
+.video + .video{
+	margin-left: 34px;
+}
+/* Information section */
+#blog-updates{
+	width: 660px;
+	float: left;
+	margin-right: 80px;
+}
+#connect-with-us{
+	width: 220px;
+	float: right;
+} 
+
+/* Footer */
+#footer{
+	background-color: #e2e2e2;
+	padding: 30px 0;
+    display:block;
+}
+#footer .wrapper{
+	position: relative;
+}
+
+#footer p{
+	margin-bottom: 0;
+}
+
+#footer-list{
+	list-style: none;
+	margin: 0;
+	padding:0;
+}
+
+#footer-list li{
+	float: left;
+}
+
+#footer-list li + li::before{
+	content: "|";
+	color: #5d5d5d;
+}
+
+#footer-list li + li{
+	margin-left: 6px;
+}
+
+#footer-list a{
+	color: #5d5d5d;
+	font-size: 12px;
+}
+
+.footer_logo{
+	height: 64px;
+	position: absolute;
+	right: 0;
+	top: -8px;
+}
