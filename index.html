@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--Metadatos es una información extra-->
+    <meta name="description" content="Práctica HTML clase 10"/>
+    <meta name="keywords" content="esqueleto"/>
+    <meta name="author" content="stephanie vega"/>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Estructura</title>
+</head>
+<body>
+    <!--Contenedor padre-->
+    <div class="wraper">
+        <!--Header-->
+        <div id="header" class="clearfix img-border">
+            <div id="logo"> 
+                <img src="img/logo.png" alt="Logo">
+            </div>
+            <div class="menu">
+                <a href="mailto:info@creativeStudio.com" class="e-mail">info@creativeStudio.com</a>
+                <ul id="nav-list" class="clearfix">
+                    <li><a href="#">Home</a></li> 
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact us</a></li>
+                </ul>
+            </div>
+        </div>
+        <!--Contenedor de la imagen-->
+        <div id="img-content" class="img-border">
+            <img  src="img/img.jpg"  alt="lmagen">
+        </div>
+        <!--Contenedor de información-->
+        <div id="info-content" class="clearfix img-border">
+            <div class="caja"> 
+                <h2 class="title-border-bottom">About us</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis nulla id orci malesuada porta posuere quis massa. Nunc vitae purus non augue scelerisque ultricies vitae et velit. Sed vitae lectus id sem lobortis scelerisque. Praesent eget consequat libero.</p>
+                <a href="#" class="link-read"><img class="link-read-img" src="img/flecha.png" alt="Flecha">Read</a>
+            </div>
+
+            <div class="caja">
+                <h2 class="title-border-bottom">Our benefits</h2>
+                <ul class="list-information">
+                    <li>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis nulla id orci malesuada portaposuere quis massa.</p>
+                
+                    </li>
+                    
+                    <li>
+                        <p>Nunc vitae purus non augue scelerisque ultricies vitae et velit. Sed vitae lectus id sem lobortis scelerisque. Praesent eget consequat</p>
+                    </li>
+                    
+                    <li>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis nulla id orci malesuada porta posuere quis massa.
+                        </p>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="caja">
+                <h2 class="title-border-bottom">Testimonials</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis nulla id orci malesuada porta posuere quis massa. Nunc vitae purus non augue scelerisque ultricies vitae et velit. Sed vitae lectus id sem lobortis scelerisque. </p>
+				<a href="#" class="box-link">Rafi, Graphicsfuel.com></a>
+            </div>
+        
+        </div>
+        <!-- Our Portfolio -->
+		<div id="our-portfolio" class="img-border clearfix">
+			<h2>Our Portfolio</h2>
+			<div class="video">
+				<a href="#">
+					<img src="img/video-1.jpg" alt="video 1">
+				</a>
+			</div>
+			<div class="video">
+				<a href="#">
+					<img src="img/video-2.jpg" alt="video 2">
+				</a>
+			</div>
+			<div class="video">
+				<a href="#">
+					<img src="img/video-3.jpg" alt="video 3">
+				</a>
+			</div>
+			<div class="video">
+				<a href="#">
+					<img src="img/video-4.jpg" alt="video 4">
+				</a>
+			</div>
+		</div>
+
+		<!-- Blog updates -->
+		<div id="blog-information">
+		<div id="blog-information" class="clearfix">
+			<div id="blog-updates">
+				<h3>Blog updates</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis nulla id orci malesuada porta
+					posuere quis massa. Nunc vitae purus non augue scelerisque ultricies vitae et velit. Sed vitae lectus id sem
+					lobortis scelerisque. Praesent eget consequat libero. </p>
+			</div>
+			<div id="connect-with-us">
+				<h3>Connect with us</h3>
+				<div>
+					<a href="#" target="_blank"><img src="img/icono-tw.png"></a>
+					<a href="#" target="_blank"><img src="img/icono-fb.png"></a>
+					<a href="#" target="_blank"><img src="img/icono-dos-pts.png"></a>
+					<a href="#" target="_blank"><img src="img/icono-wifi.png"></a>
+				</div>
+			</div>
+        </div>
+    <!-- Footer -->
+	<div id="footer">
+	    <div class="wrapper">
+		    <div>
+			    <ul id="footer-list" class="clearfix">
+				    <li>
+				    	<a>Home</a>
+				    </li>
+				    <li>
+				    	<a>About Us</a>
+				    </li>
+				    <li>
+				    	<a>Portfolio</a>
+                    </li>
+				    <li>
+				    	<a>Services</a>
+				    </li>
+				    <li>
+				    	<a>Blog</a>
+				    </li>
+				    <li>
+				    	<a>Contact Us</a>
+				    </li>
+			    </ul>
+			    <p>© 2010 CreativeStudio. All Rights Reserved</p>
+		    </div>
+            <img src="img/logo.png" class="footer_logo">
+        </div>
+    </div>
+</body>
+</html>
