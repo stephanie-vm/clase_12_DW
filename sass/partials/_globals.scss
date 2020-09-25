@@ -1,0 +1,30 @@
+/*GLOBALES*/
+@import "variables";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    border-top: 17px solid #090909; }
+h2 {
+	font-size: $size;
+    padding-left: 30px;
+    background-position: 0 7px;
+}
+h3{
+    font-size: $size;
+    padding-left: 23px;
+    background-size: 8px;
+    background-position: 0 5px;
+}
+h2,h3{
+    text-transform: uppercase;
+    color: #090909;
+    padding-bottom: 12px;
+    background-image: url(../img/flecha.png);
+    background-repeat: no-repeat;
+}
+p{
+    color: $color2;
+    font-size: 12px;
+    line-height: 15px;
+}

@@ -1,0 +1,30 @@
+/* Main content */
+//@import "Helpers";
+@import "variables";
+
+.list-information{
+	list-style: listNone;
+	margin: $margin;
+	padding: $padding;
+}
+.list-information li{
+	padding-left:30px;
+	background-image: $url;
+	background-repeat: $noRepetir;	
+	background-position: top left;
+}
+
+.caja{ 
+	width: 280px;
+	float:$izquierda;
+	+ .caja{
+		margin-left: 60px;
+	}
+}
+
+.box-link{
+    color:$color5;
+    font-size: 12px;
+    font-style: italic;
+    text-decoration: listNone;
+}

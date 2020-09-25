@@ -1,0 +1,29 @@
+/* Our portfolio */
+//NESTING
+.video{
+	width: 214.5px;
+	float: left;
+	background-color:$color6;
+	a{
+		display: block;
+	}
+	img{
+		display: block;
+	}
+	+ .video{
+		margin-left: 34px;
+	}
+}
+
+
+/* Information section */
+#blog-updates{
+	width: 660px;
+	float: $izquierda;
+	margin-right: 80px;
+}
+#connect-with-us{
+	width: 220px;
+	float: $derecha;
+} 
+
