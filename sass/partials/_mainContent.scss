@@ -15,10 +15,10 @@
 }
 
 .caja{ 
-	width: 280px;
+	width:29%;
 	float:$izquierda;
 	+ .caja{
-		margin-left: 60px;
+		margin-left: 6.25%;
 	}
 }
 

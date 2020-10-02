@@ -1,7 +1,7 @@
 /* Our portfolio */
 //NESTING
 .video{
-	width: 214.5px;
+	width: 22%;
 	float: left;
 	background-color:$color6;
 	a{
@@ -9,9 +9,11 @@
 	}
 	img{
 		display: block;
+		max-width: 100%;
+		width: 100%;
 	}
 	+ .video{
-		margin-left: 34px;
+		margin-left: 3.5%;
 	}
 }
 

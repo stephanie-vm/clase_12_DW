@@ -1,11 +1,13 @@
 /*HEADER*/
 #logo{
     float: $izquierda;
-    width: 183px;
+    width: 19%;
 }
 .menu {
     float:$derecha;
+    width: 68%;
     position: $relativo;
+    
 }
 .e-mail{
     font-size: 13px;
@@ -36,5 +38,8 @@
         text-transform: $mayuscula;
     }
 }
-
+#img-content{
+    max-width: 100%;
+    width: 100%;
+}
 
