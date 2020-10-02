@@ -29,7 +29,7 @@ p {
 
 /*HELPERS*/
 .wraper {
-  width: 960px;
+  max-width: 960px;
   margin: 0 auto; }
 
 #info-content .title-border-bottom {
@@ -42,7 +42,7 @@ p {
 
 .img-border {
   padding: 20px 0 15px;
-  border-bottom: 1px solid #c0c0c0; }
+  border-bottom: 1px solid #bfbfbf; }
 
 .link-read {
   color: #fe9b00;
@@ -65,10 +65,11 @@ p {
 /*HEADER*/
 #logo {
   float: left;
-  width: 183px; }
+  width: 19%; }
 
 .menu {
   float: right;
+  width: 68%;
   position: relative; }
 
 .e-mail {
@@ -96,6 +97,10 @@ p {
     text-decoration: none;
     text-transform: uppercase; }
 
+#img-content {
+  max-width: 100%;
+  width: 100%; }
+
 /* Main content */
 .list-information {
   list-style: listNone;
@@ -109,10 +114,10 @@ p {
   background-position: top left; }
 
 .caja {
-  width: 280px;
+  width: 29%;
   float: left; }
   .caja + .caja {
-    margin-left: 60px; }
+    margin-left: 6.25%; }
 
 .box-link {
   color: #090909;
@@ -122,15 +127,17 @@ p {
 
 /* Our portfolio */
 .video {
-  width: 214.5px;
+  width: 22%;
   float: left;
   background-color: red; }
   .video a {
     display: block; }
   .video img {
-    display: block; }
+    display: block;
+    max-width: 100%;
+    width: 100%; }
   .video + .video {
-    margin-left: 34px; }
+    margin-left: 3.5%; }
 
 /* Information section */
 #blog-updates {
@@ -144,12 +151,12 @@ p {
 
 /* Information section */
 #blog-updates {
-  width: 660px;
+  width: 68%;
   float: left;
-  margin-right: 80px; }
+  margin-right: 8%; }
 
 #connect-with-us {
-  width: 220px;
+  width: 22.9%;
   float: right; }
 
 /* Footer */
